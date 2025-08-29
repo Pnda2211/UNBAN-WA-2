@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unban WhatsApp</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      background: black;
+      color: #0f0;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-image: url('https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif');
+      background-size: cover;
+    }
+    h1 {
+      font-size: 2em;
+      color: #00ff66;
+      text-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66;
+      margin-bottom: 40px;
+    }
+    .button {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 25px;
+      width: 220px;
+      border: 2px solid #00ff66;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #00ff66;
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ff66;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: rgba(0, 255, 0, 0.1);
+      box-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <h1>UNBAN WHATSAPP</h1>
+  
+  <a href="judul1.html" class="button">LOW TEKS</a>
+  <a href="judul2.html" class="button">LOW+ TEKS</a>
+  <a href="judul3.html" class="button">STANDART TEKS</a>
+  <a href="judul4.html" class="button">HIGH TEKS</a>
+  <a href="judul5.html" class="button">HIGH+ TEKS</a>
+
+  <footer>Copyright YourUsername</footer>
+</body>
+</html>
